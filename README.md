@@ -20,9 +20,7 @@ You must address the following questions and tasks in your exploratory analysis.
 
 
 ## Data
-The data for this assignment are available from the course web site as a single zip file:
-
-Data for Peer Assessment [29Mb]
+The data for this assignment are available from the course web site as a single zip file.
 
 The zip file contains two files:
 
@@ -54,8 +52,8 @@ Source Classification Code Table (Source_Classification_Code.rds): This table pr
 
 You can read each of the two files using the readRDS() function in R. For example, reading in each file can be done with the following code:
 
-NEI <- readRDS("summarySCC_PM25.rds")
-SCC <- readRDS("Source_Classification_Code.rds")
+* NEI <- readRDS("summarySCC_PM25.rds")
+* SCC <- readRDS("Source_Classification_Code.rds")
 as long as each of those files is in your current working directory (check by calling dir() and see if those files are in the listing).
 
 ## Making Plots
